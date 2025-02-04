@@ -1,0 +1,14 @@
+#external{
+    color: rgb(142, 100, 182);
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+h2:hover{
+    color: hotpink;
+}
+*{
+    margin: 20;
+    padding: auto;
+}
