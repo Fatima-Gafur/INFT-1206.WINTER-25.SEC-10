@@ -1,0 +1,135 @@
+
+  main {
+    display: flex;
+  }
+  
+  article, section {
+    flex: 2;
+  }
+  
+  aside {
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 20%;
+  }
+  
+  aside img {
+    max-width: 100%;
+  }
+  
+  footer {
+    margin-bottom: 10px;
+    display: block;
+  }
+  body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 20px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 0px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: 0.1em;
+  }
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: .5;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 1rem;
+    height: 0rem;
+    line-height: .4;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em .5em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 05;
+    padding: 15;
+  }
+
+  .feature {
+      width:200px;
+  }
+   
+    
+    main {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    article {
+        width: 65%;
+    }
+    
+    aside {
+        width: 30%;
+    }
+    .photos {
+        display: grid;
+        grid-template-columns: repeat(2, .5fr);
+        gap: 2px;
+        justify-content: space-between;
+    }
+    
+    .photos img {
+        width: 100%;
+        height: auto;
+    }
+    .feature {
+        width: 100%;
+        max-width: 200px;
+        float: left;
+        margin-right: 25px;
+    }
+    .grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    article, aside {
+        padding: 20px;
+    }
