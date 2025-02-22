@@ -20,7 +20,7 @@
   }
   
   aside img {
-    max-width: 100%;
+    max-width: 100%; /**width of imgaes**/
   }
   
   footer {
@@ -28,9 +28,10 @@
     display: block;
   }
   body {
+    /**setting the background**/
     background-color: #fff;
     color: #333;
-    margin: 0;
+    margin: 2px;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
 
@@ -86,8 +87,8 @@
   
   .photos {
     list-style: none;
-    margin: 05;
-    padding: 15;
+    margin: 5px;
+    padding: 10px;
   }
 
   .feature {
